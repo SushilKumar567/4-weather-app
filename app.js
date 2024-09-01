@@ -9,7 +9,7 @@ const checkWeather = async (city) => {
   let response = await fetch(apiUrl + city + `&appid=${apiKey}`);
   if (response.status == 404) {
     document.querySelector(".error").style.display = "block";
-    document.querySelector(".weather").style.display = "none";
+    document.querySelector(".cont").style.display = "none";
   } else {
     let data = await response.json();
     document.querySelector(".city").innerHTML = data.name;
@@ -30,7 +30,7 @@ const checkWeather = async (city) => {
       weatherIcon.src = "images/mist.png";
     }
 
-    document.querySelector(".weather").style.display = "block";
+    document.querySelector(".cont").style.display = "block";
     document.querySelector(".error").style.display = "none";
   }
 };
