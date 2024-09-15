@@ -18,7 +18,7 @@ main {
 
 main .card {
   min-height: 95%;
-  width: 22%;
+  width: 350px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -46,15 +46,15 @@ main .card {
   font-size: 18px;
   transition: 0.5s;
 }
+
 .search input:hover {
   box-shadow: -1px -1px 1px #2ebcf6;
 }
+
 .search button {
   width: 45px;
   height: 45px;
-  background-color: #ebfffc;
   background-color: #2ebcf655;
-
   color: #1d1d1f;
   border-radius: 50%;
   border: 0;
