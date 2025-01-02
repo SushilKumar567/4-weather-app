@@ -1,11 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "poppins", sans-serif;
+  font-family: sans-serif;
 }
 
 body {
-  background-color: #e8ecd6;
+  background-color: #82c8e4;
 }
 
 main {
@@ -121,10 +121,6 @@ div .city {
 .humidity,
 .wind {
   font-size: 25px;
-}
-
-.cont {
-  display: none;
 }
 
 .error {
