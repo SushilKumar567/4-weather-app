@@ -17,11 +17,12 @@ main {
 }
 
 main .card {
-  min-height: 95%;
+  min-height: 85%;
   width: 350px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   background-color: #c4e2ff;
   border-radius: 30px;
   padding: 0px 10px;
@@ -82,16 +83,30 @@ div .city {
   color: #313159;
 }
 
+.cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 30%;
+  width: 100%;
   color: white;
-  padding: 0px 0 25px;
   border-radius: 50px;
   background-color: #2ebcf655;
   box-shadow: -2px -2px 1px #2ebcf6;
 }
 
 .details {
-  margin-top: 50px;
+  width: 95%;
+  margin-top: 30px;
   background-color: #c4e2ff;
   border-radius: 30px;
   display: flex;
@@ -116,6 +131,10 @@ div .city {
 
 .col div p {
   color: #2ebcf6;
+}
+
+.size {
+  margin-bottom: 15px;
 }
 
 .humidity,
