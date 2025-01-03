@@ -21,7 +21,7 @@ main .card {
   width: 350px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #c4e2ff;
   border-radius: 30px;
