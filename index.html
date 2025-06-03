@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check Current Weather</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <main>
+      <div class="card">
+        <div class="search">
+          <input type="text" placeholder="enter city name" spellcheck="false" />
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="error">
+          <p>Invalid city name</p>
+        </div>
+        <div class="cont">
+          <div class="container">
+            <div class="weather-img">
+              <img src="assets/clear.png" class="weather-icon" />
+            </div>
+            <div class="size">
+              <p class="temp"></p>
+              <p class="city"></p>
+            </div>
+          </div>
+          <div class="details">
+            <div class="col">
+              <img src="assets/humidity.png" />
+              <div>
+                <p class="humidity"></p>
+                <h3>Humidity</h3>
+              </div>
+            </div>
+            <div class="col">
+              <img src="assets/wind.png" />
+              <div class="size2">
+                <p class="wind"></p>
+                <h3>Wind Speed</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
